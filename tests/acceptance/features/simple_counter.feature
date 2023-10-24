@@ -7,6 +7,7 @@
 #     When User clicks the + button
 #     Then User sees the counter get increased
 
+
 Feature: Simple counter
   User wants to use counter to increase or decrease the number on screen
 
