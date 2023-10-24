@@ -11,5 +11,5 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
           project: "@seanhagstrom's workflow test"
-          column: In Progress
+          column: 'In Progress'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
