@@ -44,5 +44,6 @@ Then(
       const counterText = await page.locator(`[data-testid="counter-text"]`);
       await expect(counterText).toHaveText('Count: 0');
     }
+    return;
   }
 );
