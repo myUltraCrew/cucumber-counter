@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project: "@seanhagstrom's workflow test"
-          column: 'In Progress'
+          project: workflow test
+          column: In Progress
           repo-token: ${{ secrets.GHPROJECT_TOKEN }}
