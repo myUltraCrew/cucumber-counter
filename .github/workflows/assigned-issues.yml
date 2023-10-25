@@ -8,7 +8,7 @@ jobs:
   automate-project-columns:
     runs-on: ubuntu-latest
     steps:
-      - uses: Fmanuel809/github-project-automation-v2@master
+      - uses: seanhagstrom/github-project-automation-plus@main
         with:
           project: Test
           column: In Progress
